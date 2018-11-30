@@ -1,1 +1,1 @@
-TinDog Starting Files
+My tindog appbrewery sample site!
