@@ -1,0 +1,176 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+body {
+  text-align: center;
+}
+
+/* navigation bar */
+.navbar {
+  padding-left: 0;
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.navbar-link {
+  font-family: "Montserrat";
+  font-weight: 300px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* title section */
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+#phone-pic {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  #phone-pic {
+    width: 60%;
+    transform: rotate(0deg);
+    position: static;
+  }
+
+  #features {
+    background-color: #fff;
+    position: static;
+  }
+
+  .container-fluid {
+    text-align: center;
+  }
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+/* download buttons */
+.dwnld-btn {
+  Margin: 5% 3% 5% 0;
+}
+
+/* Content Section */
+.row-spacing {
+  margin: 0 7%;
+}
+
+.fa-hov-color:hover {
+  color: #ff4c68;
+}
+
+.fa-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#features p {
+  width: 67%;
+  margin: auto;
+  position: relative;
+}
+
+.ctrtop {
+  text-align: center;
+  padding: 10% 0;
+}
+
+/* testimonial section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
+}
+
+.section-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+/* press section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.testimonial-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* cta section */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 100px;
+}
+
+.cta-heading {
+  padding-bottom: 25px;
+  font-size: 2.5rem;
+  line: 1.5;
+}
+
+/* footer */
+#footer {
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+.sm-icons {
+  color: black;
+  margin: 20px 10px;
+}
